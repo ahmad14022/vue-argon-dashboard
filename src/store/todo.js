@@ -6,22 +6,7 @@ export const useListStore = defineStore({
   id: 'list',
   // state is same as data in options api
   state: () => ({
-    list: [
-      {
-        id: 1,
-        title: 'Default Task 1',
-        description: 'Description of Default Task 1',
-        category: 'Default Category',
-        completed: true
-      },
-      {
-        id: 2,
-        title: 'Default Task 2',
-        description: 'Description of Default Task 2',
-        category: 'Default Category',
-        completed: false
-      }
-    ]
+    list: []
   }),
   actions: {
     async a$list() {
@@ -41,12 +26,22 @@ export const useListStore = defineStore({
         throw message ?? error
       }
     },
-    removeIndex(index) {
-      this.list = this.list.filter((val, idx) => index !== idx)
+    async a$edit({ id, data }) {
+      try {
+        await s$todo.edit(id, data);
+        await this.a$list();
+      } catch ({ message, error }) {
+        throw message ?? error;
+      }
     },
-    editIndex(index, data) {
-      this.list[index] = data
-    }
+    async a$delete(id) {
+      try {
+        await s$todo.del(id);
+        await this.a$list();
+      } catch ({ message, error }) {
+        throw message ?? error;
+      }
+    },
   },
   getters: {
     getList: (state) => state.list,

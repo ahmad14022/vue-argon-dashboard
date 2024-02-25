@@ -7,8 +7,14 @@ import RTL from "../views/Rtl.vue";
 import Profile from "../views/Profile.vue";
 import Signup from "../views/Signup.vue";
 import Signin from "../views/Signin.vue";
+import NotFoundView from "../views/NotFoundView.vue";
 
 const routes = [
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'Match All',
+    component: NotFoundView,
+  },
   {
     path: "/",
     name: "/",

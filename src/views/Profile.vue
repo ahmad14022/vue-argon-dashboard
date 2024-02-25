@@ -17,7 +17,7 @@
             <div class="col-auto">
               <div class="avatar avatar-xl position-relative">
                 <img
-                  src="../assets/img/team-1.jpg"
+                  src="../assets/img/ahmad.jpg"
                   alt="profile_image"
                   class="shadow-sm w-100 border-radius-lg"
                 />
@@ -25,8 +25,8 @@
             </div>
             <div class="col-auto my-auto">
               <div class="h-100">
-                <h5 class="mb-1">Sayo Kravits</h5>
-                <p class="mb-0 font-weight-bold text-sm">Public Relations</p>
+                <h5 class="mb-1">Ahmad Mushawwir</h5>
+                <p class="mb-0 font-weight-bold text-sm">Software Engineer Intern</p>
               </div>
             </div>
             <div
@@ -216,25 +216,25 @@
                   <label for="example-text-input" class="form-control-label"
                     >Username</label
                   >
-                  <argon-input type="text" value="lucky.jesse" />
+                  <argon-input type="text" value="ahmad.mushawwir" />
                 </div>
                 <div class="col-md-6">
                   <label for="example-text-input" class="form-control-label"
                     >Email address</label
                   >
-                  <argon-input type="email" value="jesse@example.com" />
+                  <argon-input type="email" value="mushawwirahmad45@gmail.com" />
                 </div>
                 <div class="col-md-6">
                   <label for="example-text-input" class="form-control-label"
                     >First name</label
                   >
-                  <input class="form-control" type="text" value="Jesse" />
+                  <input class="form-control" type="text" value="Ahmad" />
                 </div>
                 <div class="col-md-6">
                   <label for="example-text-input" class="form-control-label"
                     >Last name</label
                   >
-                  <argon-input type="text" value="Lucky" />
+                  <argon-input type="text" value="Mushawwir" />
                 </div>
               </div>
               <hr class="horizontal dark" />
@@ -246,26 +246,26 @@
                   >
                   <argon-input
                     type="text"
-                    value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
+                    value="Sleman, D.I. Yogyakarta"
                   />
                 </div>
                 <div class="col-md-4">
                   <label for="example-text-input" class="form-control-label"
                     >City</label
                   >
-                  <argon-input type="text" value="New York" />
+                  <argon-input type="text" value="Yogyakarta" />
                 </div>
                 <div class="col-md-4">
                   <label for="example-text-input" class="form-control-label"
                     >Country</label
                   >
-                  <argon-input type="text" value="United States" />
+                  <argon-input type="text" value="Indonesia" />
                 </div>
                 <div class="col-md-4">
                   <label for="example-text-input" class="form-control-label"
                     >Postal code</label
                   >
-                  <argon-input type="text" value="437300" />
+                  <argon-input type="text" value="55581" />
                 </div>
               </div>
               <hr class="horizontal dark" />
@@ -277,7 +277,7 @@
                   >
                   <argon-input
                     type="text"
-                    value="A beautiful Dashboard for Bootstrap 5. It is Free and Open Source."
+                    value="Never stop learning 🤓"
                   />
                 </div>
               </div>

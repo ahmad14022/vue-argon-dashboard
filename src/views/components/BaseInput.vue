@@ -57,9 +57,9 @@ defineEmits(['update:modelValue'])
   background-color: transparent;
   width: 100%;
 }
-
+/* 
 input[type="text"] {
   background-color: transparent;
-}
+} */
 
 </style>
